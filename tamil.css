@@ -1,0 +1,148 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+.fresher {
+    font-size: 20px;
+    color: #777;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    justify-content: space-between;
+
+}
+
+.section p,
+.section ul {
+    margin: 10px 0;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 5px 0;
+}
+
+.skills,
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills ul,
+.projects ul {
+    width: 48%;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.media {
+    font-size: 24px;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 2px;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: block;
+
+
+}
+.major{
+    padding:50px;
+
+}
+.section-one{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.section-one_name{
+    font-size: 60px;
+    color: white;
+    
+}
+.section-one_role{
+    font-size:30px;
+    margin-top: 10px;
+}
+.contact-form{
+    margin-top:20px;
+
+}
+.contact-form_input,.contact-form_textarea,.contact-form_submit{
+    margin-top:10px;
+
+}
+.contact-form_input{
+    padding:10px;
+    border:none;
+    border-bottom:solid black 1px;
+}
+.contact-form_textarea{
+    padding:10px;
+    border:none;
+    border: black 1px;
+}
+.contact-form_submit{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orange red;
+    color:black;
+}
+.section-one_anchor{
+    background-color: orangered;
+    color:white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
