@@ -4,48 +4,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="stylesheet" href="./tamil.css">
-   
+    <title>Contact</title>
+    <style>
+        /* Basic reset */
+        body, h1, p, table, input, textarea {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        .major {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-one {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-one__name {
+            font-size: 2.5rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .section-one__role {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .section-one_anchor button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .section-one_anchor button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-form {
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+
+        td {
+            padding: 5px 0;
+            vertical-align: middle;
+        }
+
+        .contact-form_input, .contact-form_textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form_textarea {
+            height: 150px;
+        }
+
+        .contact-form_input:focus, .contact-form_textarea:focus {
+            outline: none;
+            border-color: #007BFF;
+        }
+
+        .contact-form_submit {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form_submit:hover {
+            background-color: #218838;
+        }
+
+        .contact-form a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .contact-form a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .section-one__name {
+                font-size: 2rem;
+            }
+
+            .section-one__role {
+                font-size: 1rem;
+            }
+
+            .contact-form_input, .contact-form_textarea {
+                font-size: 0.9rem;
+            }
+
+            .contact-form_submit {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 <div class="major">
     <div class="section-one">
-        <h1 class="section-one__name">Tamil King</h1> </a>
+        <h1 class="section-one__name">Tamil King</h1>
+        <p class="section-one__role">Web Developer</p>
+        <a href="./index.html" class="section-one_anchor"><button>Home</button></a>
+    </div>
 
-        <p class="section-one__role">web Developer</p>
-        <a href="./index.html" class="section-one_anchor"><button>home</button></a>
-        </div>
-        <div class:"contact-form">
+    <div class="contact-form">
         <form>
             <table>
                 <tr>
                     <td>Name:</td>
-                    <td><input type="text" placeholder="enter your name" class="contact-form_input"></td>
+                    <td><input type="text" placeholder="Enter your name" class="contact-form_input"></td>
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td><input type="email" placeholder="enter your mail id "class="contact-form_input"></td>
+                    <td><input type="email" placeholder="Enter your email ID" class="contact-form_input"></td>
                 </tr>
                 <tr>
-                    <td>Message</td>
-                    <td><textarea placeholder="message" class="contact-form_textarea"></textarea>
-                    </td>
+                    <td>Message:</td>
+                    <td><textarea placeholder="Your message" class="contact-form_textarea"></textarea></td>
                 </tr>
                 <tr>
-                    <td><input type="submit"class="contact-form_submit"></td>
+                    <td><input type="submit" value="Submit" class="contact-form_submit"></td>
                 </tr>
                 <tr>
-                    <td>Social media:</td>
-                    <td><a href="https://www.instagram.com/?hl=en">insta</a></td>
+                    <td>LinkedIn:</td>
+                    <td><a href="https://www.linkedin.com/in/tamil-arasan-tamil-arasan-431a87320/" target="_blank">LinkedIn</a></td>
                 </tr>
+            </table>
         </form>
-        </table>
     </div>
 
-    </div>
+</div>
 
 </body>
 
